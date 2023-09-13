@@ -1,0 +1,133 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+background-color:hsl(30, 38%, 92%);
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+.card{
+  width: 330px;
+  height: 450px;
+  background-color: white;
+  padding: 25px;
+  border-radius:0 8px 8px 0;
+}
+
+.image img{
+  display: block;
+  width: 300px;
+  height: 450px;
+  border-radius: 8px 0 0 8px;
+}
+
+button{
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.5s, transform 0.5s;
+
+}
+
+button:hover{
+  background-color:  hsl(158, 69%, 25%);
+}
+
+button:active{
+  transform: scale(0.9);
+}
+.carticon{
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.head{
+  font-family: Montserrat;
+  font-weight: 400;
+  color: hsl(228, 12%, 48%);
+  letter-spacing:5px;
+  margin-bottom: 20px;
+}
+
+.title{
+  font-style:Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  width: 260px;
+  margin-bottom: 20px;
+}
+.main-desc{
+  color:hsl(228, 12%, 48%) ;
+  font-family:Montserrat;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  width: 290px;
+  line-height: 25px;
+}
+
+.price{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.price-1{
+font-family: Fraunces;
+color: hsl(158, 36%, 37%);
+font-size: 22px;
+}
+
+.price-2{
+  font-family:Montserrat;
+  color: hsl(228, 12%, 48%);
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 20px;
+  text-decoration: line-through;
+}
+
+
+
+/*## Colors
+
+### Primary
+
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+
+### Neutral
+
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 14px
+
+### Font
+
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700
+*/
